@@ -4,6 +4,7 @@
  */
 package com.atmecs.com.atmecs.ReportCreator;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestClass {
@@ -22,7 +23,8 @@ public class TestClass {
 	@Test
 	public void test3()
 	{
-		System.out.println("Inside test two");
+		System.out.println("Inside test three");
+		Assert.assertEquals("1", "0");
 	}
 	
 	@Test

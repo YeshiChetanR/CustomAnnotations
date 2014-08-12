@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="com.atmecs.com.atmecs.ReportCreator.AppTest" duration-ms="2" started-at="2014-08-05T11:09:25Z" finished-at="2014-08-05T11:09:25Z">
+  <suite name="Suite" duration-ms="16" started-at="2014-08-12T11:23:22Z" finished-at="2014-08-12T11:23:22Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2" started-at="2014-08-05T11:09:25Z" finished-at="2014-08-05T11:09:25Z">
-    </test> <!-- Command line test -->
-  </suite> <!-- com.atmecs.com.atmecs.ReportCreator.AppTest -->
+    <test name="Test" duration-ms="16" started-at="2014-08-12T11:23:22Z" finished-at="2014-08-12T11:23:22Z">
+      <class name="com.atmecs.com.atmecs.ReportCreator.TestClass">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@2ca0fcdc]" name="test2" duration-ms="6" started-at="2014-08-12T16:53:22Z" finished-at="2014-08-12T16:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@2ca0fcdc]" name="test3" duration-ms="1" started-at="2014-08-12T16:53:22Z" finished-at="2014-08-12T16:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@2ca0fcdc]" name="test4" duration-ms="1" started-at="2014-08-12T16:53:22Z" finished-at="2014-08-12T16:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="testmethod()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@2ca0fcdc]" name="testmethod" duration-ms="1" started-at="2014-08-12T16:53:22Z" finished-at="2014-08-12T16:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod -->
+      </class> <!-- com.atmecs.com.atmecs.ReportCreator.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.com.atmecs.ReportCreator.Main">
+      <class name="com.atmecs.com.atmecs.ReportCreator.TestClass">
         <methods>
-          <include name="main"/>
+          <include name="test3"/>
         </methods>
-      </class> <!-- com.atmecs.com.atmecs.ReportCreator.Main -->
+      </class> <!-- com.atmecs.com.atmecs.ReportCreator.TestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
