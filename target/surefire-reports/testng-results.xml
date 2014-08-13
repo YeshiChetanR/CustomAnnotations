@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="147" started-at="2014-08-13T12:51:28Z" finished-at="2014-08-13T12:51:29Z">
+  <suite name="Suite" duration-ms="306" started-at="2014-08-13T13:29:57Z" finished-at="2014-08-13T13:29:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="147" started-at="2014-08-13T12:51:28Z" finished-at="2014-08-13T12:51:29Z">
+    <test name="Test" duration-ms="306" started-at="2014-08-13T13:29:57Z" finished-at="2014-08-13T13:29:57Z">
       <class name="com.atmecs.com.atmecs.ReportCreator.TestClass">
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@364a1425]" name="test2" duration-ms="75" started-at="2014-08-13T18:21:28Z" finished-at="2014-08-13T18:21:28Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@f964ca1]" name="test2" duration-ms="53" started-at="2014-08-13T18:59:57Z" finished-at="2014-08-13T18:59:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@364a1425]" name="test3" duration-ms="1" started-at="2014-08-13T18:21:29Z" finished-at="2014-08-13T18:21:29Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@f964ca1]" name="test3" duration-ms="0" started-at="2014-08-13T18:59:57Z" finished-at="2014-08-13T18:59:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@364a1425]" name="test4" duration-ms="1" started-at="2014-08-13T18:21:29Z" finished-at="2014-08-13T18:21:29Z">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@f964ca1]" name="test4" duration-ms="1" started-at="2014-08-13T18:59:57Z" finished-at="2014-08-13T18:59:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="testmethod()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@364a1425]" name="testmethod" duration-ms="1" started-at="2014-08-13T18:21:29Z" finished-at="2014-08-13T18:21:29Z">
+        <test-method status="PASS" signature="testmethod()[pri:0, instance:com.atmecs.com.atmecs.ReportCreator.TestClass@f964ca1]" name="testmethod" duration-ms="1" started-at="2014-08-13T18:59:57Z" finished-at="2014-08-13T18:59:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testmethod -->

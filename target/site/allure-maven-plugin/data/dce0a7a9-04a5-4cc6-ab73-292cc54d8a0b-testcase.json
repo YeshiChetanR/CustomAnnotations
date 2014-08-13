@@ -1,0 +1,28 @@
+{
+  "uid" : "dce0a7a9-04a5-4cc6-ab73-292cc54d8a0b",
+  "name" : "testmethod",
+  "title" : "Testmethod",
+  "time" : {
+    "start" : 1407936597297,
+    "stop" : 1407936597298,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}
