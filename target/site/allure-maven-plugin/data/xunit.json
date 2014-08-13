@@ -1,0 +1,70 @@
+{
+  "time" : {
+    "start" : 1407933918169,
+    "stop" : 1407933918320,
+    "duration" : 151
+  },
+  "testSuites" : [ {
+    "uid" : "e9e92aa6-513f-44a3-a3f1-479cf26295d6",
+    "name" : "Suite",
+    "title" : "Suite",
+    "time" : {
+      "start" : 1407933918169,
+      "stop" : 1407933918320,
+      "duration" : 151
+    },
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a2d30593-c4fa-42e1-9853-1c0eb20fe5de",
+      "name" : "test2",
+      "title" : "Test 2",
+      "time" : {
+        "start" : 1407933918221,
+        "stop" : 1407933918262,
+        "duration" : 41
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "3c01c6e2-c746-4860-a0b6-da0c0261870c",
+      "name" : "test3",
+      "title" : "Test 3",
+      "time" : {
+        "start" : 1407933918267,
+        "stop" : 1407933918268,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "cfa96793-0603-4e4c-9766-0d88e361263a",
+      "name" : "test4",
+      "title" : "Test 4",
+      "time" : {
+        "start" : 1407933918269,
+        "stop" : 1407933918270,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9f41316a-fbb2-4e51-b5aa-5807e574fc47",
+      "name" : "testmethod",
+      "title" : "Testmethod",
+      "time" : {
+        "start" : 1407933918271,
+        "stop" : 1407933918273,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

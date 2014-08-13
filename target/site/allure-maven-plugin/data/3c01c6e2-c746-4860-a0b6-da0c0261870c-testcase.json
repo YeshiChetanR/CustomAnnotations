@@ -1,0 +1,28 @@
+{
+  "uid" : "3c01c6e2-c746-4860-a0b6-da0c0261870c",
+  "name" : "test3",
+  "title" : "Test 3",
+  "time" : {
+    "start" : 1407933918267,
+    "stop" : 1407933918268,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}
