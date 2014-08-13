@@ -24,12 +24,23 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					 <properties>
+                    <property>
+                        <name>listener</name>
+                        <value>ru.yandex.qatools.allure.testng.AllureTestListener</value>
+                    </property>
+                </properties>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
 
 	<dependencies>
+	  <dependency>
+        <groupId>ru.yandex.qatools.allure</groupId>
+        <artifactId>allure-testng-adaptor</artifactId>
+        <version>1.4.0.RC8</version>
+    </dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
