@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">8 methods, 3 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,6 +104,16 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.com.atmecs.ReportCreator.TestClass" hash-for-method="test3">test3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.com.atmecs.ReportCreator.TestClass" hash-for-method="test6">test6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.com.atmecs.ReportCreator.TestClass" hash-for-method="test7">test7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
@@ -113,6 +123,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.com.atmecs.ReportCreator.TestClass" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.com.atmecs.ReportCreator.TestClass" hash-for-method="test2">test2</a> <!-- method navigator-link -->
@@ -125,7 +140,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.com.atmecs.ReportCreator.TestClass" hash-for-method="testmethod">testmethod</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.com.atmecs.ReportCreator.TestClass" hash-for-method="test5">test5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.com.atmecs.ReportCreator.TestClass" hash-for-method="test8">test8</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -157,6 +177,28 @@
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test6">
+                  </a> <!-- test6 -->
+                  <span class="method-name">test6</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0] but found [1]
+	at com.atmecs.com.atmecs.ReportCreator.TestClass.test6(TestClass.java:43)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test7">
+                  </a> <!-- test7 -->
+                  <span class="method-name">test7</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0] but found [1]
+	at com.atmecs.com.atmecs.ReportCreator.TestClass.test7(TestClass.java:50)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
@@ -165,6 +207,13 @@
               <span class="class-name">com.atmecs.com.atmecs.ReportCreator.TestClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="test2">
@@ -181,9 +230,16 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testmethod">
-                  </a> <!-- testmethod -->
-                  <span class="method-name">testmethod</span>
+                  <a name="test5">
+                  </a> <!-- test5 -->
+                  <span class="method-name">test5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test8">
+                  </a> <!-- test8 -->
+                  <span class="method-name">test8</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -240,28 +296,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test2')
+data.setCell(0, 1, 'test1')
 data.setCell(0, 2, 'com.atmecs.com.atmecs.ReportCreator.TestClass')
-data.setCell(0, 3, 49);
+data.setCell(0, 3, 50);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test3')
 data.setCell(1, 2, 'com.atmecs.com.atmecs.ReportCreator.TestClass')
 data.setCell(1, 3, 9);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testmethod')
+data.setCell(2, 1, 'test7')
 data.setCell(2, 2, 'com.atmecs.com.atmecs.ReportCreator.TestClass')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 3);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test4')
+data.setCell(3, 1, 'test2')
 data.setCell(3, 2, 'com.atmecs.com.atmecs.ReportCreator.TestClass')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test6')
+data.setCell(4, 2, 'com.atmecs.com.atmecs.ReportCreator.TestClass')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test4')
+data.setCell(5, 2, 'com.atmecs.com.atmecs.ReportCreator.TestClass')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test5')
+data.setCell(6, 2, 'com.atmecs.com.atmecs.ReportCreator.TestClass')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test8')
+data.setCell(7, 2, 'com.atmecs.com.atmecs.ReportCreator.TestClass')
+data.setCell(7, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 ms</span>
+              <span class="suite-total-time">Total running time: 64 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -289,22 +361,42 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.atmecs.com.atmecs.ReportCreator.TestClass</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test2</span>
+                <span class="method-name">test1</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">222 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test3</span>
-                <span class="method-start">225 ms</span>
+                <span class="method-start">230 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test4</span>
-                <span class="method-start">273 ms</span>
+                <span class="method-start">278 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testmethod</span>
-                <span class="method-start">280 ms</span>
+                <span class="method-name">test5</span>
+                <span class="method-start">288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test6</span>
+                <span class="method-start">297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test7</span>
+                <span class="method-start">300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test8</span>
+                <span class="method-start">305 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

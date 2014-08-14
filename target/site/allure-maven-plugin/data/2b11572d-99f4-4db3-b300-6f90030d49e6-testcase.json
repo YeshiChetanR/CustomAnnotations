@@ -1,0 +1,28 @@
+{
+  "uid" : "2b11572d-99f4-4db3-b300-6f90030d49e6",
+  "name" : "test1",
+  "title" : "Test 1",
+  "time" : {
+    "start" : 1408011443893,
+    "stop" : 1408011443924,
+    "duration" : 31
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}
